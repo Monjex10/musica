@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="img/ico.jpg" />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> FECHAS</title>
+</head>
+<body>
+    <h1 class="titulo">Creedence Clearwater Revival</h1>
+    <p >Gira Internacional 2024 (Argentina)</p>
+        <br>
+        <br>
+        <div id="gira">
+            <p class="fechas">24 de Enero, Mendoza.</p> <a href="   "></a>
+            <p class="fechas">10 de febrero, Cordoba.</p>
+            <p class="fechas">16 de Marzo, San Juan</p>
+            <p class="fechas">8 de Abril, Buenos Aires.</p>
+            <p class="fechas">9 de Abril, Buenos Aires.</p>
+            <p class="fechas">10 de Abril, Buenos Aires.</p>
+            <p class="fechas">20 de Mayo, Neuquen</p>
+        </div>
+    
+    <script src="tour.js"></script>
+</body>
+</html>
+
+<div class="event-container">
+    <ul class="event-list">
+      <li>
+        <span class="event-city"> 24 de Enero, Mendoza. </span>
+        <button onclick= "getTickets(`Mendoza`, `No hay entradas`)" class="event-button">No hay entradas</button>
+      </li>
+      <li>
+        <span class="event-city"> 10 de Febere</span>
+        <button onclick= "getTickets(`Cordoba`)" class="event-button">Tickets</button>
+      </li>
+      <li>
+        <span class="event-date"> Sabado 29 de Septiembre</span>
+        <span class="event-city"> Mendoza </span>
+        <button onclick= "getTickets(`Mendoza`)" class="event-button">Tickets</button>
+      </li>
+      <li>
+        <span class="event-date"> Domingo 30 de Septiembre</span>
+        <span class="event-city"> Jujuy</span>
+        <button onclick= "getTickets(`Jujuy`)" class="event-button">Tickets</button>
+      </li>
+      <li>
+        <span class="event-date">Viernes 1 de Octubre </span>
+        <span class="event-city"> San Pablo </span>
+        <button onclick= "getTickets(`San Pablo`)" class="event-button">Tickets</button>
+      </li>
+    </ul>
+  </div>
